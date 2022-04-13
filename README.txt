@@ -1,4 +1,7 @@
 HardcoreGamble is an ultra high-risk gambling platform.
+!Testing from command line requires Brownie framework!
+It is yet not finished, please feel free to propose some changes (my main focus might be the safety). 
+Some tests can be done from folder "tests" using >>brownie test
 
 The rules are:
     * The winner will be always the one who put the biggest amount of ether into the pool
@@ -25,3 +28,6 @@ The rules are:
                 =>BID(18)   18=HighestBid  POOL = 14+18 = 32
                 =>BID(2)    POOL = 32+2 = 34    34-18>18  16>18 FALSE: GAME CONTINUES
                 =>BID(4)    POOL = 34+4 = 38    38-18>18  20>18 TRUE: GAME ENDS player who bid 18 Wins!
+                
+                
+                
