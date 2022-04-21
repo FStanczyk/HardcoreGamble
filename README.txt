@@ -1,3 +1,9 @@
+
+Huge thanks to the reddit r/Solidity community for helping me with the safety. Credits to u/marco-at-paladin wholight-audited this contract for me.
+
+Please use only for fun.
+As it comes, this type of "blind" gamble is not possible in the blockchain (At least not this style). From the fact that every dataon blockchain is public, it is imposible for me to hide data like 'pool' size or 'highest stake'. So I would not recommend using this contract as a true gambling platform.
+
 HardcoreGamble is an ultra high-risk gambling platform.
 !Testing from command line requires Brownie framework!
 It is yet not finished, please feel free to propose some changes (my main focus might be the safety). 
